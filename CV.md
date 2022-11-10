@@ -11,8 +11,8 @@
 ## Information about me
 
 
-I started my career as electrician and in less than a year I became an engineer of the second grade. One year after that i became  an first grade engineer and another year later i have a status of lead engineer. 
-After when it was time to move on, I started to learn a new profession, фтв in a short time became the head of the purchasing department.
+I started my career as electrician and in less than a year I became an engineer of the second grade. One year after that i became  a first grade engineer and another year later i had a status of lead engineer. 
+After, when it was time to move on, I started to learn a new profession, and in a short time i became the head of the purchasing department.
 Now is the time to start a new chapter of my life and I believe, that my ability to learn and to gain new skills will allow me to become qualified Frontend Developer.
 
 
@@ -25,4 +25,21 @@ Now is the time to start a new chapter of my life and I believe, that my ability
 + Microsoft Visio
 + Autocad (Basic)
 
+
+## Code example
+
+
+function past(h, m, s){
+  return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
+}
+
+
+## Experience
+
+
++ Electrician - 1 year
++ Electrical company engineer of the second grade - 1 year
++ Electrical company engineer of the first grade - 1 year
++ Electrical company lead engineer- 5 years
++ Head of the purchasing department - 2 years
 
