@@ -43,3 +43,11 @@ function past(h, m, s){
 + Electrical company lead engineer- 5 years
 + Head of the purchasing department - 2 years
 
+
+## Education
+
+
++ Federal State Budgetary Educational Institution of Higher Education "Volgograd State Agricultural University"
++ w3schools HTML Tutorial
++ w3schools CSS Tutorial
+
