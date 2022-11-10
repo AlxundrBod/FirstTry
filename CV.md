@@ -29,9 +29,11 @@ Now is the time to start a new chapter of my life and I believe, that my ability
 ## Code example
 
 
+```
 function past(h, m, s){
   return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
 }
+```
 
 
 ## Experience
@@ -51,3 +53,8 @@ function past(h, m, s){
 + w3schools HTML Tutorial
 + w3schools CSS Tutorial
 
+
+## Languages
+
++ Russian - native speaker
++ English - В1 
