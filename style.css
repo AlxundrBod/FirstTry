@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(assets/fonts/CenturyGothicB3.TTF);
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(assets/fonts/CenturyGothicCrv.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url(assets/fonts/CenturyGothicStd.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-Italic.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-Thin.otf);
+    font-weight: 100;
+}
+
+body {
+    border: 1px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header {
+    font-family: CenturyGothic, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    font-family: Montserrat, sans-serif;
+}
+
+footer {}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: black;
+    box-shadow: 0px 3px 0px 0px white;
+    transition: 1s;
+}
