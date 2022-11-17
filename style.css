@@ -49,7 +49,6 @@ html {
 }
 
 body {
-    border: 1px solid blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +57,8 @@ body {
 
 header {
     font-family: CenturyGothic, sans-serif;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.7);
 }
 
 main {
@@ -70,6 +70,7 @@ footer {}
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 
 .nav-list {
@@ -107,4 +108,76 @@ footer {}
 
 .section {
     width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section-header-title {
+    font-family: CenturyGothic;
+    color: white;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-header {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 30px 35px;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 410px) {
+    .section-header-title {
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 410px) {
+    .nav-item {
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+}
+
+.avatar {
+    padding-left: 70px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(0.9) brightness(1.15);
+    transition: .3s;
+}
+
+.avatar:hover {
+    filter: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
