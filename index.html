@@ -13,7 +13,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
@@ -30,24 +30,36 @@
     </header>
 
     <main class="main main-container">
-        <div class="container">
-            <img src="./assets/img/avatar.jpg" alt="my avatar" class="avatar">
-            <section class="section-header" id="profile">
-                <h1 class="section-header-title">Bodrov Alexander</h1>
+        <div class="headCont">
+            <section>
+                <img src="./assets/img/avatar.jpg" alt="my avatar" class="avatar">
+                <div class="section-head-comb">
+                    <h1 class="section-header-title">Bodrov Alexander</h1>
+                    <h3 class="section-below-text">The Rolling Scopes School student</h3>
+                </div>
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title">Contact info</h2>
+                <h2 class="contact-title">Contact info</h2>
                 <ul>
-                    <li><span style="font-weight: bold;">Email:</span> talismanariona@gmail.com</li>
-                    <li><span style="font-weight: bold;">Telegram:</span> @Rurouni_ken</li>
-                    <li><span style="font-weight: bold;">GitHub:</span> AlxundrBod</li>
+                    <li>
+                        Email: <a href="mailto: talismanariona@gmail.com"
+                            class="contact-item">talismanariona@gmail.com</a>
+                    </li>
+                    <li>
+                        Telegram: <a href="https://t.me/Rurouni_ken" class="contact-item">@Rurouni_ken</a>
+                    </li>
+                    <li>
+                        GitHub: <a href="https://github.com/AlxundrBod" class="contact-item">AlxundrBod</a>
+                    </li>
                 </ul>
             </section>
             <section class="section" id="aboutMe">
                 <h2 class="section-title">Information about me</h2>
                 <p>
-                    I started my career as electrician and in less than a year I became an engineer of the second grade.
-                    One year after that i became a first grade engineer and another year later i had a status of lead
+                    I started my career as electrician and in less than a year I became an engineer of the second
+                    grade.
+                    One year after that i became a first grade engineer and another year later i had a status of
+                    lead
                     engineer.
                     After, when it was time to move on, I started to learn a new profession, and in a short time i
                     became the head of the purchasing department.
@@ -67,24 +79,24 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
-                <pre class="pre">
-                    <code>
-```
-function past(h, m, s)
-{
- return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
-}
-```
-                    </code>
-                </pre>
+                <code class="pre">
+                <p>```<br>
+                function past(h, m, s)<br>
+                {<br>
+                return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)<br>
+                }<br>
+                ```</p>
+                </code>
             </section>
             <section class="section" id="experience">
                 <h2 class="section-title">Experience</h2>
                 <ul>
                     <li><span style="font-weight: bold;">Electrician</span> - 1 year</li>
-                    <li><span style="font-weight: bold;">Electrical company engineer of the second grade</span> - 1 year
+                    <li><span style="font-weight: bold;">Electrical company engineer of the second grade</span> - 1
+                        year
                     </li>
-                    <li><span style="font-weight: bold;">Electrical company engineer of the first grade</span> - 1 year
+                    <li><span style="font-weight: bold;">Electrical company engineer of the first grade</span> - 1
+                        year
                     </li>
                     <li><span style="font-weight: bold;">Electrical company lead engineer</span> - 5 years</li>
                     <li><span style="font-weight: bold;">Head of the purchasing department</span> - 2 years</li>
@@ -93,7 +105,8 @@ function past(h, m, s)
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                 <ul>
-                    <li style="font-weight: bold;">Federal State Budgetary Educational Institution of Higher Education
+                    <li style="font-weight: bold;">Federal State Budgetary Educational Institution of Higher
+                        Education
                         "Volgograd State Agricultural University"</li>
                     <li style="font-weight: bold;">w3schools HTML Tutorial</li>
                     <li style="font-weight: bold;">w3schools CSS Tutorial</li>
@@ -107,12 +120,18 @@ function past(h, m, s)
                 </ul>
             </section>
         </div>
-
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <p>FOOTER</p>
+        <div class="git">
+            <a href="https://github.com/AlxundrBod">
+                <img class="github-icon" src="./assets/svg/github.svg" alt="Github Icon">
+            </a>
+            <a href="#header" class="git-link">AlxundrBod</a>
+            <p class="date">2022</p>
+            <a href="https://rs.school/js-stage0/">
+                <img class="rs-icon" src="./assets/svg/rsschool.svg" alt="Github Icon">
+            </a>
         </div>
     </footer>
 
