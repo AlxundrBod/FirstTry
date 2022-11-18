@@ -21,7 +21,7 @@ Now is the time to start a new chapter of my life and I believe, that my ability
 
 + HTML
 + CSS (Basic)
-+ javaScrypt (Basic)
++ javaScript (Basic)
 + Microsoft Visio
 + Autocad (Basic)
 
