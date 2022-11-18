@@ -1,1 +1,1 @@
-New Startcd
+https://AlxundrBod.github.io/rsschool-cv/
