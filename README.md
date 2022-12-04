@@ -1,2 +1,2 @@
-https://AlxundrBod.github.io/rsschool-cv/cv
-https://AlxundrBod.github.io/rsschool-cv/
+https://AlxundrBod.github.io/FirstTry/cv
+https://AlxundrBod.github.io/FirstTry-cv/
